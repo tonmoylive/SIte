@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #181818;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.course-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.total-credits, .gpa {
+  font-weight: bold;
+}
+
+.total-credits span, .gpa span {
+  float: right;
+}
